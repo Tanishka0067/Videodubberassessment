@@ -5,11 +5,11 @@ import image from "./img.png";
 import Image from "next/image";
 
 const Main = () => {
-  const [voteCount, setVoteCount] = useState(1); // Initialize vote count
+  const [voteCount, setVoteCount] = useState(1);
   const [isVoted, setIsVoted] = useState(false); 
 
   const handleVote = () => {
-    setVoteCount(voteCount + 1); // Increment vote count
+    setVoteCount(voteCount + 1); 
     setIsVoted(true); 
     setTimeout(() => {
       setIsVoted(false);
@@ -69,7 +69,7 @@ const Main = () => {
                       </svg>
                     </div>
                     <div className="text-14 font-semibold uppercase  px-2">
-                      Upvoted {voteCount} 
+                      Upvote {voteCount} 
                     </div>
                   </div>
                 </button>

@@ -7,9 +7,9 @@
 
 .animate {
   transform: translateY(-10px); /* Move the SVG up */
-  opacity: 0; /* Fade out */
+  opacity: 0; 
 }
 .color-change path {
-  fill: #ff007f; /* Change this to your desired color */
+  fill: #ff007f;
   transition: fill 0.3s;}
 
